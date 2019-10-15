@@ -5,11 +5,13 @@
 /* Style the video: 100% width and height to cover the entire window */
 #myVideo {
 	position: fixed;
-	left: 0;
-	bottom: 0;
-	min-width: 100%;
-	height: 100%;
+	left: -15px;
+	bottom: -15px;
+	min-width: 110%;
+	height: 110%;
 	z-index: -1;
+	  -webkit-filter: blur(10px);
+
 }
 
 .body{
@@ -74,7 +76,7 @@ h5{
 }
 
 h6{
-	color:#d3d0cb;
+	color:#a28d56;
 	font-family: gill-sans-nova, sans-serif;
 	font-size: 30pt;
 	font-weight: normal;
