@@ -1,4 +1,42 @@
 
+
+
+/*----------VIDEO---------*/
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	min-width: 100%;
+	height: 100%;
+	z-index: -1;
+}
+
+.body{
+
+  outline: 10px solid #a28d56;
+  outline-offset: -40px;
+
+}
+/* Add some content at the bottom of the video/page */
+.content {
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    top: 85%;
+    left: 50%;
+    margin-left: -50px; /* margin is -0.5 * dimension */
+    margin-top: -25px; 
+}
+
+.beginning_page_style{
+
+}
+/* Style the button used to pause/play the video */
+
+/*----------VIDEO---------*/
+
+
 /* ------------TEXT---------- */
 h1{
 	color:#a28d56;
@@ -24,9 +62,21 @@ h4{
 }
 
 h5{
+
 	color:#a28d56;
 	font-family: gill-sans-nova, sans-serif;
 	font-size: 20pt;
+	font-weight: normal;
+	text-transform: uppercase;
+	padding-bottom:20px;
+	letter-spacing: 1px;
+
+}
+
+h6{
+	color:#d3d0cb;
+	font-family: gill-sans-nova, sans-serif;
+	font-size: 30pt;
 	font-weight: normal;
 	text-transform: uppercase;
 	padding-bottom:20px;
@@ -98,6 +148,55 @@ ul {
 }
 .banner{
 	position:relative;
+	background-color:#251427;
+	padding-bottom: 60px;
+	width: 100%;
+}
+
+.background_bar_one{
+	display: block;
+	position: absolute;
+	background-color:#251427;
+	padding-bottom: 60px;
+	width: 200%;
+	margin: auto;
+	right:0;
+
+}
+
+.background_bar_two{
+	display: block;
+	position: absolute;
+	background-color:#251427;
+	height:190px;
+	width: 100%;
+	margin-top: -140px;
+	right:0;
+}
+
+.background_bar_two_page_two{
+	display: block;
+	position: absolute;
+	background-color:#251427;
+	height:210px;
+	width: 100%;
+	margin-top: -160px;
+	right:0;
+}
+
+.background_bar_two_page_three{
+	display: block;
+	position: absolute;
+	background-color:#251427;
+	height:190px;
+	width: 100%;
+	margin-top: -170px;
+	right:0;
+}
+
+.background_bar_two_page_four{
+	display: block;
+	position: absolute;
 	background-color:#251427;
 	padding-bottom: 60px;
 	width: 100%;
