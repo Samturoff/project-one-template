@@ -21,7 +21,7 @@
 		<header>
 			<!-- header, h1, logo etc content -->
 			<div class=logo_homepage_return>
-				<img class=logo_banner src="C:\Users\Sam\Pictures\Des341\Project 1\Rough Draft\Images\Igorrr\processed_png\png\logo_name.png">
+				<a href=homepage.html><img class=logo_banner src="content\logo_name.png"></a>
 			</div>
 		</header>
 		<nav>
