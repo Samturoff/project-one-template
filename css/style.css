@@ -1,6 +1,25 @@
 
+/*----------Audio---------*/
 
-/*----------VIDEO---------*/
+
+[aria-pressed="true"] {
+   border: 2px solid red;
+   background: #FAFAAE;
+}
+
+[aria-pressed="false"] {
+   border: 2px solid #000;
+}
+
+.visually-hidden { 
+  position: absolute; 
+  overflow: hidden; 
+  clip: rect(0 0 0 0); 
+  height: 1px; width: 1px; 
+  margin: -1px; padding: 0; border: 0; 
+}
+/*----------Audio End---------*/
+
 /* Style the video: 100% width and height to cover the entire window */
 #myVideo {
 	position: fixed;
@@ -677,6 +696,7 @@ ul {
 }
 
 .grid-item2_page_five {
+	padding-top: 20px;
 	grid-column-start: 2;
 	grid-column-end: 5;
 	grid-row-start: 4;
@@ -686,7 +706,7 @@ ul {
 .grid-item3_page_five {
 	padding-top:53px;
 	grid-column-start: 5;
-	grid-column-end: 8;
+	grid-column-end: 7;
 	grid-row-start: 4;
 	grid-row-end: 5;
 }
@@ -699,6 +719,7 @@ ul {
 }
 
 .grid-item5_page_five {
+	padding-top: 60px;
 	padding-left:40px;
 	padding-right:40px;
 	grid-column-start: 1;
@@ -897,13 +918,13 @@ ul {
 }
 
 .the_chickens{
-	text-align: right;
+	text-align: left;
 }
 
 .patrick_the_chicken_header{
 	padding-top: 0;
 	margin-left: 32%;
-	text-align: left;
+	text-align: right;
 	text-justify: inter-word;
 	text-decoration: underline;
 	text-decoration-style: solid;
@@ -912,6 +933,7 @@ ul {
 }
 
 .patrick_the_chicken{
+	text-align: right;
 	padding-top: 20px;
 	margin-left: 32%;
 }

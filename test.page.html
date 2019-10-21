@@ -13,29 +13,27 @@
 
 <body>
 
-<h2 class="w3-center">Automatic Slideshow</h2>
+<h1>Accessible HTML5 Audio Player</h1>
 
-<div class="w3-content w3-section" style="max-width:500px">
-  <img class="mySlides" src="https://juicyfrog.files.wordpress.com/2014/10/igorrr_poule.jpg" style="width:100%">
-  <img class="mySlides" src="https://i.imgur.com/ag7xsx7.jpg" style="width:100%">
-  <img class="mySlides" src="https://juicyfrog.files.wordpress.com/2014/10/igorrr_poule.jpg" style="width:100%">
-</div>
+<p>
+  <button class="audio-ctrl play">listen to audio</button>  
+  <button class="audio-ctrl pause">pause</button>  
+  <button class="audio-ctrl read">read transcript</button>
+ </p>
 
-<script src="scriptt.js">
-var myIndex = 0;
-carousel();
+<p class="visually-hidden audio-transcript" tabindex="0">This is an audio recording. You are hearing the audio.</p>
 
-function carousel() {
-  var i;
-  var x = document.getElementsByClassName("mySlides");
-  for (i = 0; i < x.length; i++) {
-    x[i].style.display = "none";  
-  }
-  myIndex++;
-  if (myIndex > x.length) {myIndex = 1}    
-  x[myIndex-1].style.display = "block";  
-  setTimeout(carousel, 2000); // Change image every 2 seconds
-}
+<audio controls id="player">
+  <source src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/15309/test.mp3" type="audio/mpeg">
+  <source src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/15309/audio.ogg" type="audio/ogg">
+  <track src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/15309/transcription.vtt" label="English Captions" kind="subtitles" srclang="en-us" default />
+  Your browser does not support HTML5 audio.
+</audio>
+
+
+
+
+<script src="script.js">
 </script>
 
 </body>

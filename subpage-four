@@ -21,7 +21,7 @@
 		<header>
 			<!-- header, h1, logo etc content -->
 			<div class=logo_homepage_return>
-				<a href=homepage.html><img class=logo_banner src="content\logo_name.png"></a>
+				<a href=homepage.html><img class=logo_banner src="content\logo_name.png" alt="Igorrr Logo"></a>
 			</div>
 		</header>
 		<nav>
