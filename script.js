@@ -1,30 +1,39 @@
-var 
-  $player = $(".audio-ctrl"),
-  $transcript = $(".audio-transcript");
+var $item = $('.carousel-item');
+    var $wHeight = $(window).height();
 
-  $(".audio-ctrl").each(function(){
+    $item.height($wHeight);
+    $item.addClass('full-screen');
 
-    $(this).attr("aria-pressed","false");
+    var $numberofSlides = $('.carousel-item').length;
+    var $currentSlide = Math.floor((Math.random() * $numberofSlides));
 
-    $(this).click(function(e){
-      e.preventDefault();
-
-      $player.attr("aria-pressed","false");
-
-      if($(this).hasClass("play")){
-        $(this).attr("aria-pressed","true");
-        // 2 sec delay to allow screen reader
-        // to read button state
-        setTimeout(function(){
-          $("#player")[0].play();
-        },2000);
-      }
-      if($(this).hasClass("pause")){
-        $("#player")[0].pause();
-        $(this).attr("aria-pressed","true");
-      }
-      if($(this).hasClass("read")){
-        $transcript.removeClass("visually-hidden").focus();
+    $('.carousel-indicators li').each(function() {
+      var $slideValue = $(this).attr('data-slide-to');
+      if ($currentSlide == $slideValue) {
+        $(this).addClass('active');
+        $item.eq($slideValue).addClass('active');
+      } else {
+        $(this).removeClass('active');
+        $item.eq($slideValue).removeClass('active');
       }
     });
-  });
+
+    $('.carousel img').each(function() {
+      var $src = $(this).attr('src');
+      var $color = $(this).attr('data-color');
+      $(this).parent().css({
+        'background-image': 'url(' + $src + ')',
+        // 'background-color' : $color
+      });
+      $(this).remove();
+    });
+
+    $(window).on('resize', function() {
+      $wHeight = $(window).height();
+      $item.height($wHeight);
+    });
+
+    $('.carousel').carousel({
+      interval: 3000,
+      pause: "false"
+    });
