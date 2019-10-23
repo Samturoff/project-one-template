@@ -1,27 +1,64 @@
-# Project One
-This is the template repository for the first major project in the Design 341 class at PSU.
+# Project One - Igorrr
 
-## To use this template:
+Images(content):
+1_1	SYDSVENSKAN(https://www.sydsvenskan.se/2017-06-12/igorrr-och-circle-ar-genreanarki-med-mer-eller-mindre-poang)
+2	Svarta Photography(https://www.last.fm/music/Igorrr/+images/2bd10439e349b6802f5d4666e4b34554)
+3	Trajeto Alternativo(https://trajetoalternativo.wordpress.com/2015/08/31/resenha-corpo-mente-corpo-mente-2015/comment-page-1/)
+4	Igorrr(https://www.youtube.com/watch?v=rEuMAqfuCrI)
+5	Igorrr(https://www.youtube.com/watch?v=rEuMAqfuCrI)
+6	Igorrr(https://www.youtube.com/watch?v=rEuMAqfuCrI)
+7_1	Igorrr(https://www.youtube.com/watch?v=rEuMAqfuCrI)
+8	Igorrr(Hallelujah back of cover)
+9_1	Maclyn Bean(https://www.flickr.com/photos/maclynbeanphotography/40108997451)
+10_1	Metal Blade Records(https://www.metalblade.com/us/news/igorrr-signs-worldwide-deal-with-metal-blade-records/)
+11	Maclyn Bean(https://www.flickr.com/photos/maclynbeanphotography/40108997351)
+12	SvartaRosen(https://www.last.fm/music/Igorrr/+images/8bca517dde7f4cfe8c60bc72529fc2ea)
+13	theaudiodb(https://www.theaudiodb.com/images/media/artist/thumb/tstpqq1365426694.jpg)
+14	Igorrr(Savage Sinusoid album cover)
+15_1	Igorrr(https://www.wegow.com/en-us/artists/igorrr)
+16_1	Igorrr(https://www.youtube.com/watch?v=rEuMAqfuCrI)
+17_1	Laurent Lunoir(https://vk.com/llunoir?z=photo397883504_456239017%2Falbum397883504_0%2Frev)
+18	Metal Wani(https://metalwani.com/2018/02/gallery-igorrr-spotlights-live-toronto.html)
+19	Metal Music Archives(http://www.metalmusicarchives.com/artist/igorrr)
 
-1. Click the "Fork" button in the upper right corner of this repository.
+bg_image_2	Igorrr(Savage Sinusoid album cover pattern)
 
-2. Click on "Settings" and change the name to something better, like "project-one-four-poops", click the rename buton to save your changes.
+facebook, facebook_hover	Facebook
+instagram, instagram_hover	Instagram
+twitter, twitter_hover		Twitter
 
-3. Open GitHub Desptop
+logo_name, logo_name_hover	Igorrr
 
-4. In the upper drop-down menu, choose: File > Clone Repository
+Images(content/slideshow/processed):
+1	Grywnn(https://commons.wikimedia.org/wiki/File:Igorrr_@_Roadburn_Festival_2018-04-20_003.jpg)
+2	Grywnn(https://commons.wikimedia.org/wiki/File:Igorrr_@_Euroblast_2015_76.jpg)
+3	Grywnn(https://commons.wikimedia.org/wiki/File:Igorrr_@_Roadburn_Festival_2018-04-20_004.jpg)
+4	Grywnn(https://commons.wikimedia.org/wiki/File:Igorrr_@_Roadburn_Festival_2018-04-20_005.jpg)
 
-5. Mae sure the GitHub.com tab is highlighted with a blue underline
 
-6. click on the repository you just forked. If it doesn't show up, try searching for it in the filter field.
+Images(content/albums):
 
-7. Choose a Local Path or keep it at the default which goes to Documents/GitHub/ on your hard drive.
+14	Igorrr(Hallelujah album cover)
+15	Igorrr(Moisissure album cover)
+16	Igorrr(Nostril album cover)
+17_1	Igorrr(Savage Sinusoid album cover)
+18	Igorrr(Corpo Mente album cover)
+19	Igorrr(Maigre album cover)
+20	Igorrr(Poissson Soluble album cover)
 
-8. Click the Clone button on the bottom to have GitHub Desktop fetch the files from GitHub.com and clone them to your hard drive.
+Videos
+index.html		Igorrr(https://www.youtube.com/watch?v=rEuMAqfuCrI)
+subpage-four.html	Igorrr(https://www.youtube.com/watch?v=WFxDOV6IwHk)
 
-9. In the Upper drop down menu choose: Repository > Open in Sublime Text (or: Open in External Text Editor)
+Music
+Gross Barbe	Igorrr
+Corpo Mente	Igorrr
+Cheval		Igorrr
 
-10. Edit, save, commit, and push your files. Lather, rinse, repeat!
+
+
+
+
 
 
 
