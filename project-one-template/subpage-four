@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Project One - Subpage One</title>
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="/favicon.ico" type="image/x-icon">
+	<!-- This is a special css library that overrides all the ugle default css styles that come with html5 -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://use.typekit.net/upc4fuz.css">
+	
+
+</head>
+	<div class=background_bar_one>
+	</div>	
+<div class="wrapper">
+<body>
+	<div class=banner>
+		<header>
+			<!-- header, h1, logo etc content -->
+			<div class=logo_homepage_return>
+				<a href=homepage.html><img class=logo_banner src="content\logo_name.png" alt="Igorrr Logo"></a>
+			</div>
+		</header>
+		<nav>
+			<!-- Global naviagtion stuff here, but move this or delete this to your liking. Same goes for the rest -->
+				<ul>
+					<li><a href="subpage-one.html">Discography</a></li>
+					<li><a>/</a></li>
+					<li><a href="#">Musical Work</a></li>
+					<li><a>/</a></li>
+					<li><a href="#">Musical Work</a></li>
+					<li><a>/</a></li>
+					<li><a href="#">Tours</a></li>
+					<li><a>/</a></li>
+					<li><a href="#">The Chickens</a></li>
+				</ul>
+		</nav>
+	</div>
+		<main>
+			<div class=grid-container_page_two>
+				<div class=grid-item1_page_two>	
+				</div>
+				<div class=grid-item2_page_two>
+				</div>
+				<div class=grid-item3_page_two>
+				</div>
+				<div class=grid-item4_page_two>
+				</div>
+				<div class=grid-item5_page_two>
+				</div>
+				<div class=grid-item6_page_two>
+				</div>
+				<div class=grid-item7_page_two>
+				</div>
+				<div class=grid-item8_page_two>
+				</div>
+				<div class=grid-item9_page_two>
+				</div>
+				<div class=grid-item10_page_two>
+				</div>
+				<div class=grid-item11_page_two>	
+				</div>
+				<div class=grid-item12_page_two>					
+				</div>
+			</div>
+
+
+
+
+
+		</main>
+		<footer>
+			<div class=footer_block>
+					<img class=logo_footer src="C:\Users\Sam\Pictures\Des341\Project 1\Rough Draft\Images\Igorrr\processed_png\png\logo_name.png">
+					<img class=up_arrow src="C:\Users\Sam\Pictures\Des341\Project 1\Rough Draft\Images\Igorrr\processed_png\png\up_arrow.png">
+				<div class=social_media>
+					<div class=social_media_overlap>
+						<img class=facebook src="C:\Users\Sam\Pictures\Des341\Project 1\Rough Draft\Images\Igorrr\processed_png\png\facebook.png">
+						<img class=twitter src="C:\Users\Sam\Pictures\Des341\Project 1\Rough Draft\Images\Igorrr\processed_png\png\twitter.png">
+						<img class=instagram src="C:\Users\Sam\Pictures\Des341\Project 1\Rough Draft\Images\Igorrr\processed_png\png\instagram.png">
+					</div>
+				</div>
+			</div>
+		</footer>
+</body>
+		<div class=wrapper_background>
+		</div>
+		<div class=wrapper_background_top>
+		</div>
+	</div>
+	<div class=background_bar_two>
+	</div>
+	<div>
+		<img class=background_image src="C:\Users\Sam\Pictures\Des341\Project 1\Rough Draft\Images\Igorrr\processed_png\png\bg_image_2.png">
+	</div>	
+</html>
